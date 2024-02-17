@@ -1,0 +1,10 @@
+*body{
+    box-sizing: border-box;
+}
+
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}

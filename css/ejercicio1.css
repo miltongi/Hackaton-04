@@ -1,0 +1,54 @@
+*body{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;
+    background-color: rgb(207, 206, 206);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    height: calc(100vh - 30px);
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 350px;
+    border-radius: 10px;
+    border: solid 1px #a0a0a0;
+    padding: 20px;
+}
+
+.img-card{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.chips{
+    border-radius: 10px;
+    border: solid 1px #3d3d3d;
+    padding: 5px 10px;
+}
+
+.button{
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: rgb(25, 0, 255);
+    border: solid 1px #979696;
+    margin: auto;
+    display: block;
+
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(207, 206, 206);
+    padding: 5px;
+
+}
